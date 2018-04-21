@@ -7,8 +7,9 @@ tidyDataSet.csv : csv file
 activity-list.csv : list of activity names
 subject-list.csv : list of subject
 variable-list.csv : list of variables
+CodeBook.md
 
-## description of files
+## Description of files
 
 ### run_analysis.R
 R script to transform data from original data source
@@ -24,3 +25,6 @@ dataframe list of activities and mapping to the original data source
 
 ### variable-list.csv
 list of mean and standard deviation variables selected from the original data source
+
+### CodeBook.md
+detail information about tidyDataSet content and production
