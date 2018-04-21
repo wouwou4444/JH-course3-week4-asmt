@@ -56,9 +56,21 @@ compute the mean by sapply and apply
 
 ### row
 each row contains information for one veriable (mean or std) 
+row 1 : "time_bodyacc_mean_x"
+row 2 : "time_bodyacc_mean_y"
+row 3 : "time_bodyacc_mean_z"
 
 ### column
 each column contains information for a couple of activity/subject
+column 1 : "WALKING.1" 
+column 2 : "WALKING_UPSTAIRS.1" 
+column 3 : "WALKING_DOWNSTAIRS.1" 
+column 4 : "SITTING.1" 
+column 5 : "STANDING.1" 
+column 6 : "LAYING.1" 
+column 7 : "WALKING.2" 
+column 8 : "WALKING_UPSTAIRS.2" 
+
 
 ### value
 each value contains the average value of this variable for the given activity/subject couple
